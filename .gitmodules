@@ -9,7 +9,7 @@
 	url = git@github.com:schnitzeltony/meta-musicians.git
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
-	url = git://git.openembedded.org/meta-openembedded
+	url = /home/happybot/src/meta-openembedded
 [submodule "layers/meta-qt5"]
 	path = layers/meta-qt5
 	url = git://github.com/meta-qt5/meta-qt5.git
