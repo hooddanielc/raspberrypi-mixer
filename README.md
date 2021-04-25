@@ -32,12 +32,20 @@ at [yoctoproject](https://www.yoctoproject.org/).
 
 # build
 
-```
-TODO
-```
-
-# install
+This configuration only works for raspbery pi 4
 
 ```
-TODO
+./docker/run.sh
+# inside the container run
+source tools/poky/oe-init-build-env build
+bitbake core-image-sato
+```
+
+# deploy to raspberry pi
+
+install and use [bmap tools](git@github.com:intel/bmap-tools.git) to write image to raspberry pi. Make sure you specify the correct hard drive. Here I am using /dev/sdd
+which is my sd card connected to my computer.
+
+```
+sudo bmaptool copy build/tmp/deploy/images/raspberrypi4-64/core-image-sato-raspberrypi4-64.wic.bz2 /dev/sdd
 ```
