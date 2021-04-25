@@ -1,0 +1,22 @@
+[submodule "layers/meta-96boards"]
+	path = layers/meta-96boards
+	url = git@github.com:96boards/meta-96boards.git
+[submodule "layers/meta-intel-realsense.git"]
+	path = layers/meta-intel-realsense
+	url = git@github.com:IntelRealSense/meta-intel-realsense.git
+[submodule "layers/meta-musicians"]
+	path = layers/meta-musicians
+	url = git@github.com:schnitzeltony/meta-musicians.git
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+[submodule "layers/meta-qt5"]
+	path = layers/meta-qt5
+	url = git://github.com/meta-qt5/meta-qt5.git
+[submodule "tools/poky"]
+	path = tools/poky
+	url = git://git.yoctoproject.org/poky.git
+[submodule "layers/meta-raspberrypi"]
+	path = layers/meta-raspberrypi
+	url = git://git.yoctoproject.org/meta-raspberrypi
+	branch = gatesgarth
